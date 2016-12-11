@@ -2,7 +2,7 @@
 /*
 Plugin Name: Wapuloader for Contact Form 7
 Plugin URI: http://contactform7.com/
-Description: Replaces Contact Form 7's Ajax-loader (spinner) image with Wapuu.
+Description: Wapuloader replaces Contact Form 7's Ajax-loader with a rolling Wapuu.
 Author: Takayuki Miyoshi
 Author URI: http://ideasilo.wordpress.com/
 Version: 0.71-gold

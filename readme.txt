@@ -2,11 +2,15 @@
 Contributors: takayukister
 Tags: contact form, wapuu
 Requires at least: 4.5
+Tested up to: 4.7
+Stable tag: 0.71-gold
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Replaces Contact Form 7's Ajax-loader (spinner) image with Wapuu.
+Wapuloader replaces Contact Form 7's Ajax-loader with a rolling Wapuu.
 
 == Description ==
 
-This plugin works with Contact Form 7 4.6 or higher. Also, since it uses relatively modern techniques like SVG or CSS animation, some legacy browsers won't render the Ajax-loader correctly.
+**Wapuloader for Contact Form 7** is a really simple WordPress plugin that does nothing practical apart from replacing Contact Form 7's Ajax loader (the spinning arrow icon that shows up when you press the submit button) with a rolling Wapuu image.
+
+**Note:** Wapuloader works with [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) 4.6 or higher. In addition, since it uses relatively modern techniques including SVG and CSS animation, the loader image won't be rendered correctly on legacy browsers. *Please do not expect any practical functionality from this plugin.*
