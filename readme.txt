@@ -1,5 +1,6 @@
 === Wapuloader for Contact Form 7 ===
 Contributors: takayukister
+Donate link: http://contactform7.com/donate/
 Tags: contact form, wapuu
 Requires at least: 4.5
 Tested up to: 4.7

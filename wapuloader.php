@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Wapuloader for Contact Form 7
-Plugin URI: http://contactform7.com/
+Plugin URI: http://contactform7.com/donate/
 Description: Wapuloader replaces Contact Form 7's Ajax-loader with a rolling Wapuu.
 Author: Takayuki Miyoshi
 Author URI: http://ideasilo.wordpress.com/
