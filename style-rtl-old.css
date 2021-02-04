@@ -1,16 +1,15 @@
-.wapuloader-demo .ajax-loader,
-.wpcf7 .ajax-loader {
+div.wpcf7 .ajax-loader {
 	margin: 0 8px 0 0;
 }
 
 @keyframes rolling-wapuu {
-	from {
+	0% {
 		transform: rotate(0deg);
 		right: 0;
 	}
 
-	to {
-		transform: rotate(-360deg);
+	100% {
+		transform: rotate(-359deg);
 		right: 64px;
 	}
 }
