@@ -5,10 +5,10 @@ Plugin URI: https://contactform7.com/donate/
 Description: Wapuloader replaces Contact Form 7's spinner icon with a rolling Wapuu.
 Author: Takayuki Miyoshi
 Author URI: https://ideasilo.wordpress.com/
-Version: 0.71-gold
+Version: 0.72
 */
 
-define( 'WAPULOADER_VERSION', '0.71-gold' );
+define( 'WAPULOADER_VERSION', '0.72' );
 
 define( 'WAPULOADER_PLUGIN', __FILE__ );
 
