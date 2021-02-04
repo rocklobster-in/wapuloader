@@ -35,6 +35,15 @@
 	visibility: visible;
 }
 
+@media (prefers-reduced-motion: reduce) {
+	.wapuloader-demo .ajax-loader::before,
+	.wpcf7 .ajax-loader::before {
+		animation-name: blink;
+		animation-duration: 4000ms;
+		animation-timing-function: linear;
+	}
+}
+
 @keyframes rolling-wapuu {
 	from {
 		transform: rotate(0deg);
@@ -44,5 +53,19 @@
 	to {
 		transform: rotate(360deg);
 		left: 64px;
+	}
+}
+
+@keyframes blink {
+	from {
+		opacity: 0.1;
+	}
+
+	50% {
+		opacity: 0.9;
+	}
+
+	to {
+		opacity: 0.1;
 	}
 }
