@@ -1,9 +1,11 @@
-div.wpcf7 .ajax-loader {
+.wapuloader-demo .ajax-loader,
+.wpcf7 .ajax-loader {
 	visibility: hidden;
 	display: inline-block;
 	position: relative;
 	background-image: none;
 	background-color: transparent;
+	opacity: 1;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -12,22 +14,35 @@ div.wpcf7 .ajax-loader {
 	vertical-align: middle;
 }
 
-div.wpcf7 .ajax-loader::before {
+.wapuloader-demo .ajax-loader::before,
+.wpcf7 .ajax-loader::before {
+	position: absolute;
 	content: url('./wapuu-original.svg');
+	background-color: transparent;
+	width: 32px;
+	height: 32px;
+	border: none;
+	transform-origin: center;
+	animation-name: rolling-wapuu;
+	animation-duration: 1000ms;
+	animation-timing-function: ease-out;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
 }
 
-div.wpcf7 .ajax-loader.is-active {
-	animation: 1s ease-out 0s alternate none infinite running rolling-wapuu;
+.wapuloader-demo .ajax-loader,
+.wpcf7 form.submitting .ajax-loader {
+	visibility: visible;
 }
 
 @keyframes rolling-wapuu {
-	0% {
+	from {
 		transform: rotate(0deg);
 		left: 0;
 	}
 
-	100% {
-		transform: rotate(359deg);
+	to {
+		transform: rotate(360deg);
 		left: 64px;
 	}
 }
