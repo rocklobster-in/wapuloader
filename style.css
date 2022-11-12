@@ -1,5 +1,5 @@
-.wapuloader-demo .ajax-loader,
-.wpcf7 .ajax-loader {
+.wapuloader-demo .wpcf7-spinner,
+.wpcf7 .wpcf7-spinner {
 	visibility: hidden;
 	display: inline-block;
 	position: relative;
@@ -14,8 +14,8 @@
 	vertical-align: middle;
 }
 
-.wapuloader-demo .ajax-loader::before,
-.wpcf7 .ajax-loader::before {
+.wapuloader-demo .wpcf7-spinner::before,
+.wpcf7 .wpcf7-spinner::before {
 	position: absolute;
 	content: url('./wapuu-original.svg');
 	background-color: transparent;
@@ -30,14 +30,14 @@
 	animation-iteration-count: infinite;
 }
 
-.wapuloader-demo .ajax-loader,
-.wpcf7 form.submitting .ajax-loader {
+.wapuloader-demo .wpcf7-spinner,
+.wpcf7 form.submitting .wpcf7-spinner {
 	visibility: visible;
 }
 
 @media (prefers-reduced-motion: reduce) {
-	.wapuloader-demo .ajax-loader::before,
-	.wpcf7 .ajax-loader::before {
+	.wapuloader-demo .wpcf7-spinner::before,
+	.wpcf7 .wpcf7-spinner::before {
 		animation-name: blink;
 		animation-duration: 4000ms;
 		animation-timing-function: linear;
